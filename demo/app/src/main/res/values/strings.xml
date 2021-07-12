@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="tea_name">Tea</string>
+    <string name="coffee_name">Coffee</string>
+    <string name="order_name">Please select your order.</string>
+    <string name="enter_name">Enter</string>
+    <string name="num_name">Order Num</string>
+</resources>
