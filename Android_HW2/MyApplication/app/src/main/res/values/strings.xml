@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_name">老街-李荣浩</string>
+    <string name="text1_name">让生活充满音乐</string>
+    <string name="text2_name">2021-07-13</string>
+    <string name="button_name">开始听歌</string>
+    <string name="btn_name">现在就听</string>
+    <string name="btn1_name">返回</string>
+    <string name="btn2_name">百度一下</string>
+    <string name="btn3_name">拨号页面</string>
+    <string name="service_name">服务</string>
+    <string name="research_name">找不到想要的歌曲</string>
+    <string name="call_name">叫你的朋友来一起听歌</string>
+    <string name="list_name">热门歌曲精选</string>
+</resources>

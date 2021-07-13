@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:state_pressed="true">
+        <shape android:shape="rectangle">
+            //The rounded degree
+            <corners android:radius="5dp" />
+            //Distance between text and broder
+            <padding android:bottom="10dp" android:left="20dp" android:right="20dp" android:top="10dp" />
+            //background color
+            <solid android:color="#3CB371" />
+            //Border color
+            <stroke android:width="1dp" android:color="#000000" />
+        </shape>>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="#FFFFFF"/>
+            <stroke android:width="3dp" android:color="#E0EEE0" />
+        </shape>
+    </item>
+
+</selector>
