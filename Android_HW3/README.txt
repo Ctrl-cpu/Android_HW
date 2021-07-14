@@ -1,0 +1,1 @@
+根据要求，完成了三个界面的要求，分别完成一个SeekBar控制Lottie，一个缩放、淡入淡出的属性动画以及一个运用到view pager和fragment的包含recyle view的界面，并完成图片动画的定时。
