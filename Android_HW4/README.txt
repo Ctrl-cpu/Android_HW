@@ -1,0 +1,1 @@
+一个简单的clock实现，运用到了自定义View以及Handler.
