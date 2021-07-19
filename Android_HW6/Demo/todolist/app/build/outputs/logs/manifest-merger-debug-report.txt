@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\fdaf16bd332c88483a8972bb13e01ec2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3509e7489843a123375be2ef63263982\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\28db76f52dec6a09b6d67cc0a5488120\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\b4e540f30181d38cc528b17a6dec9bd1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\643023bc69038ec3c891c8e2ddbcdc9b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\779b5559c3f25b1a8e72a2ce23d04c73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\793ee8b652f7397d25aebbb666e3cf49\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\2e8646aeb2f7a2b4e8d65b17e3bf27ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0b158b7c7e61c018664ae5674fceb49f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ff7c11ea6ed1087a65cda5b1fb8117f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\109d18c252caca9fc321e01f0b872606\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3a09643334fc9564d9a1e6d0abec7210\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3e1b2c23410158f2922662b4cfbf7670\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\922006d8a3ffe01601db88d7df7e2cd3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\f8ce300663fbdc163d6e491e6907cc54\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\160947734e856afceb8bdbf9d64dabfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3df8dc644b7fe7fa895c4e2aa0457f7f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0fb583929202943bd6d9e0d952cc285a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\14f15dc907f597ba986904669f7f814d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\c690348a2253f314a2206608e39ad11b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\8e80498f134337e7bba3d1745b866ec0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\66ada4e94045b68f5fd289a7a16b6dd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\74be9417a355f128e87d2688057531c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\e3a5cf58dcc1d2aa76153b7ba1248255\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ee6364208d45cbb80c2e26214164a64\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\62fb65060e11f88c9eac32523fc26a2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\823f8194ea84bab7752f481fc277d5ca\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\46999a3227e04f33748d5eeb7a7f42ef\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5fc01a114a45b2e5e5af6579a1c8404d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\59ba84d206008b7ee4691af208e96e79\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:4:5-38
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:1-32:12
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:6:22-78
+application
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:8:5-30:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\fdaf16bd332c88483a8972bb13e01ec2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\fdaf16bd332c88483a8972bb13e01ec2\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\28db76f52dec6a09b6d67cc0a5488120\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\28db76f52dec6a09b6d67cc0a5488120\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\14f15dc907f597ba986904669f7f814d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\14f15dc907f597ba986904669f7f814d\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:15:9-48
+	android:roundIcon
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.byted.camp.todolist.MainActivity
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.byted.camp.todolist.debug.DebugActivity
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:26:9-57
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:26:19-54
+activity#com.byted.camp.todolist.NoteActivity
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:27:9-50
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:27:19-47
+activity#com.byted.camp.todolist.debug.FileDemoActivity
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:28:19-57
+activity#com.byted.camp.todolist.debug.SpDemoActivity
+ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:29:9-58
+	android:name
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml:29:19-55
+uses-sdk
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\fdaf16bd332c88483a8972bb13e01ec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\fdaf16bd332c88483a8972bb13e01ec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3509e7489843a123375be2ef63263982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3509e7489843a123375be2ef63263982\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\28db76f52dec6a09b6d67cc0a5488120\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\28db76f52dec6a09b6d67cc0a5488120\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\b4e540f30181d38cc528b17a6dec9bd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\b4e540f30181d38cc528b17a6dec9bd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\643023bc69038ec3c891c8e2ddbcdc9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\643023bc69038ec3c891c8e2ddbcdc9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\779b5559c3f25b1a8e72a2ce23d04c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\779b5559c3f25b1a8e72a2ce23d04c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\793ee8b652f7397d25aebbb666e3cf49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\793ee8b652f7397d25aebbb666e3cf49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\2e8646aeb2f7a2b4e8d65b17e3bf27ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\2e8646aeb2f7a2b4e8d65b17e3bf27ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0b158b7c7e61c018664ae5674fceb49f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0b158b7c7e61c018664ae5674fceb49f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ff7c11ea6ed1087a65cda5b1fb8117f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ff7c11ea6ed1087a65cda5b1fb8117f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\109d18c252caca9fc321e01f0b872606\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\109d18c252caca9fc321e01f0b872606\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3a09643334fc9564d9a1e6d0abec7210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3a09643334fc9564d9a1e6d0abec7210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3e1b2c23410158f2922662b4cfbf7670\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3e1b2c23410158f2922662b4cfbf7670\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\922006d8a3ffe01601db88d7df7e2cd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\922006d8a3ffe01601db88d7df7e2cd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\f8ce300663fbdc163d6e491e6907cc54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\f8ce300663fbdc163d6e491e6907cc54\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\160947734e856afceb8bdbf9d64dabfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\160947734e856afceb8bdbf9d64dabfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3df8dc644b7fe7fa895c4e2aa0457f7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\3df8dc644b7fe7fa895c4e2aa0457f7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0fb583929202943bd6d9e0d952cc285a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\0fb583929202943bd6d9e0d952cc285a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\328223d8ee83762cf2fcea2b50dc309d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\14f15dc907f597ba986904669f7f814d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\14f15dc907f597ba986904669f7f814d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\c690348a2253f314a2206608e39ad11b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\c690348a2253f314a2206608e39ad11b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\8e80498f134337e7bba3d1745b866ec0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\8e80498f134337e7bba3d1745b866ec0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\66ada4e94045b68f5fd289a7a16b6dd6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\66ada4e94045b68f5fd289a7a16b6dd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\74be9417a355f128e87d2688057531c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\74be9417a355f128e87d2688057531c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\e3a5cf58dcc1d2aa76153b7ba1248255\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\e3a5cf58dcc1d2aa76153b7ba1248255\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ee6364208d45cbb80c2e26214164a64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5ee6364208d45cbb80c2e26214164a64\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\62fb65060e11f88c9eac32523fc26a2c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\62fb65060e11f88c9eac32523fc26a2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\823f8194ea84bab7752f481fc277d5ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\823f8194ea84bab7752f481fc277d5ca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\46999a3227e04f33748d5eeb7a7f42ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\46999a3227e04f33748d5eeb7a7f42ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5fc01a114a45b2e5e5af6579a1c8404d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\5fc01a114a45b2e5e5af6579a1c8404d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\59ba84d206008b7ee4691af208e96e79\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\好名字\.gradle\caches\transforms-2\files-2.1\59ba84d206008b7ee4691af208e96e79\AndroidManifest.xml:20:5-44
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		ADDED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android-campus-2021\chapter-6\Demo\todolist\app\src\main\AndroidManifest.xml
