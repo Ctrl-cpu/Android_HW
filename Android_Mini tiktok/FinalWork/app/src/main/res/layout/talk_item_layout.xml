@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.example.minitiktok.samecity_page.RoundImageView
+        android:id="@+id/img_touxiang"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/touxiang"
+        android:scaleType="centerCrop"
+        app:type="circle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_friendname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="迪迦奥特曼"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="明天去世纪饭店吃饭，别忘记了！"
+            android:layout_below="@+id/tv_friendname"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tv_friendname"
+            android:text="上午11:04"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

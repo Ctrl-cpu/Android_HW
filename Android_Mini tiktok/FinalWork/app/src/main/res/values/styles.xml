@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- MaxHeightLayout属性 -->
+    <declare-styleable name="MaxHeightLayout">
+        <attr name="mhl_HeightRatio" format="reference|float" />
+        <attr name="mhl_HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

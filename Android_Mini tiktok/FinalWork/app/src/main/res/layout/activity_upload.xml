@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".upload.UploadActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="10dp"
+                android:src="@mipmap/back" />
+
+            <Button
+                android:id="@+id/prev_button"
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:textSize="13sp"
+                android:text="返回编辑"
+                android:textColor="#AAAAAA"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="发布"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="164dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="309dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Title"
+                    android:layout_width="226dp"
+                    android:layout_height="77dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="改变标题并使用合适的话题，能让更多人看到~"
+                    android:maxLines="1"
+                    android:shadowColor="#36000000"
+                    android:textColor="#000"
+                    android:textColorHighlight="#7A000000"
+                    android:textColorLink="#8B000000"
+                    android:textSize="15sp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="267dp"
+                    tools:layout_editor_absoluteY="60dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+
+                        <Button
+                            android:id="@+id/huati"
+                            android:layout_width="69dp"
+                            android:layout_height="21dp"
+                            android:layout_marginLeft="22dp"
+                            android:background="#EDEDED"
+                            android:text="#添加话题"
+                            android:textSize="10sp" />
+
+                        <Button
+                            android:id="@+id/call"
+                            android:layout_width="59dp"
+                            android:layout_height="21dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="#EDEDED"
+                            android:text="call 朋友"
+                            android:textSize="10sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="101dp"
+                android:layout_height="match_parent"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:layout_marginLeft="15dp"
+                    android:text="#感谢祖国"
+                    android:textColor="#AAAAAA"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title2"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:text="#科研狗的日常"
+                    android:textColor="#AAAAAA"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title3"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#AAAAAA"
+                    android:background="#FFFFFF"
+                    android:text="#上班摸鱼必备"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#AAAAAA"
+                    android:background="#FFFFFF"
+                    android:text="#数据分析"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#AAAAAA"
+                    android:background="#FFFFFF"
+                    android:text="#工作vlog"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title6"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#AAAAAA"
+                    android:background="#FFFFFF"
+                    android:text="#河南暴雨互助"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:id="@+id/title7"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#AAAAAA"
+                    android:background="#FFFFFF"
+                    android:text="#懂的人自然懂"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:src="@mipmap/line" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="21dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/local"/>
+
+        <TextView
+            android:id="@+id/place"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:text="你在哪里"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/load"
+            android:layout_marginTop="2dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/people" />
+
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:text="公开·所有人可见"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="21dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="11dp"
+            android:src="@drawable/advanced"
+            />
+
+        <TextView
+            android:id="@+id/advanced"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="left"
+            android:text="高级设置"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_marginTop="2dp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/select" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="500dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:onClick="storage"
+            android:src="@drawable/caogao"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="40dp"
+            android:layout_width="21dp"
+            android:layout_height="22dp"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="297dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+            android:textColor="#FFFFFF"
+            android:background="#FF4040"
+            android:gravity="center"
+            android:text="发布"
+
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

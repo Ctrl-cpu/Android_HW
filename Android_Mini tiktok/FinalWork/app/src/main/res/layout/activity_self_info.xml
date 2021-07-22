@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".self_page.SelfInfoActivity"
+    android:background="#FFFFFF"
+    android:paddingTop="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="459dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp">
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="89dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/touxiang" />
+
+            <LinearLayout
+                android:layout_width="262dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#AAAAAA" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="78dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:gravity="center"
+                            android:text="获赞"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="217"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#AAAAAA" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_fans"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:gravity="center"
+                            android:text="粉丝"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:text="27"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#AAAAAA" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_star"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="36dp"
+                            android:gravity="center"
+                            android:text="关注"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:text="2"
+                            android:textColor="#000000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#AAAAAA" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="216dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="用户92764627391735"
+                android:textColor="#AAAAAA" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/icon_edit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="138dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:text="抖音号：dy31ghqg7sn29r"
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+            <ImageView
+
+                android:layout_width="16dp"
+                android:layout_height="17dp"
+                android:layout_marginTop="0.25dp"
+                android:src="@drawable/erweima" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp">
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="#AAAAAA" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_alignStart="@+id/linearlayout"
+            android:layout_alignBottom="@+id/linearlayout"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="13dp"
+                android:layout_marginLeft="10dp"
+                android:text="你还没有填写个人简介，点击添加..."
+                android:textColor="#000000"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="395dp"
+            android:layout_height="61dp">
+
+            <ImageView
+                android:layout_width="156dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/shop" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="171dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="编辑资料" />
+
+            <Button
+                android:id="@+id/btn_addfriend"
+                android:layout_width="171dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="添加好友" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:text="喜欢"
+                android:textSize="17sp" />
+
+            <View
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="10dp"
+                android:background="#AAAAAA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_self"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearlayout"/>
+
+</RelativeLayout>

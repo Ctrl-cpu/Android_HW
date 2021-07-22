@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#10081F"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/dyjlmhsh" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="请输入手机号"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/et_name"
+            android:background="@color/white"
+            />
+
+        <EditText
+            android:id="@+id/et_cipher"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_name"
+            android:layout_marginTop="15dp"
+            android:hint="请输入验证码"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/et_cipher"
+            android:background="@color/white" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_name"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/et_cipher"
+            android:background="@android:color/transparent"
+            android:text="发送验证码"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:text="提示：没有抖音账号的用户登录后将直接注册"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_light"
+        android:text="授权并登录"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/imgbtn_permit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/duigou"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#00FFFFFF"
+            android:text="我已阅读并同意抖音用户协议和隐私政策"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录后将获得以下权限"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/huigou"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获得你的公开信息（头像、昵称等）"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/huigou"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="访问你的好友关系"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/huigou"
+            android:scaleType="centerCrop"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同步你的会话和历史信息"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

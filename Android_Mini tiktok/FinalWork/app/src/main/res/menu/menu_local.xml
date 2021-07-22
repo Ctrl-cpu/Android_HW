@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hangzhou_"
+        android:title="杭州市"/>
+    <item
+        android:id="@+id/jieshao1_"
+        android:title="中国浙江省杭州市"/>
+    <item
+        android:id="@+id/zijingang_"
+        android:title="浙江大学紫金港校区"/>
+    <item
+        android:id="@+id/bifeng_"
+        android:title="碧峰"/>
+    <item
+        android:id="@+id/wenguang_"
+        android:title="浙江大学紫金港校区文化广场"/>
+    <item
+        android:id="@+id/sushe_"
+        android:title="浙江大学紫金港校区学生宿舍"/>
+    <item
+        android:id="@+id/caochang_"
+        android:title="浙江大学紫金港校区风雨操场"/>
+
+</menu>
